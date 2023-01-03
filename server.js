@@ -1,7 +1,6 @@
 const express = require('express');
 const cors = require('cors');
 const app = express();
-
 const { stripeKey } = require('./config/keys');
 
 const stripe = require("stripe")(stripeKey);
