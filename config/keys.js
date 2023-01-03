@@ -1,0 +1,1 @@
+export const stripeKey = "sk_test_51ME4ooG5GHjXDN1VXXRRK25pW2p0NKB7xl99Z33kif51cj0Mw3PuYNEKs4IpLhPYsSrXlyFiZFFlIAaxG6y2qTvE00WraE9M0t";
