@@ -10,9 +10,6 @@ app.use(express.json());
 app.use(cors({}));
 
 const calculateOrderAmount = items => {
-    // Replace this constant with a calculation of the order's amount
-    // Calculate the order total on the server to prevent
-    // people from directly manipulating the amount on the client
     return items.reduce((a, c) => a + c.price * c.quantity, 0) * 100;
 };
 
